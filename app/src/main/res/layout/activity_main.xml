@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUSIC APP"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#DC4312" />
+
+
+    <FrameLayout
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/mySongList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/FullList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Full List of Songs"
+        android:layout_margin="5dp"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Start"
+            android:layout_margin="3dp"/>
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Pause"
+            android:layout_margin="3dp" />
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Stop"
+            android:layout_margin="3dp" />
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Next"
+            android:layout_margin="3dp"/>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Download"
+        android:layout_margin="3dp"></Button>
+
+</LinearLayout>

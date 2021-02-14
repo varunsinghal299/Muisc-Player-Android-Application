@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".download"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/checknet"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="Check Internet Connection And Download" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="#D53E0F"
+        android:text="" />
+
+    <Button
+        android:id="@+id/playsong"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="PLAY SONG"/>
+
+    <Button
+        android:id="@+id/stopSong"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:text="STOP SONG"/>
+</LinearLayout>
