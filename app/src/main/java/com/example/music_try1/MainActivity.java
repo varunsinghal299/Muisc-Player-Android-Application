@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // For Boardcasting Battery
-        filter.addAction(Intent.ACTION_POWER_DISCONNECTED);
+//        filter.addAction(Intent.ACTION_POWER_DISCONNECTED);
         filter.addAction(Intent.ACTION_BATTERY_LOW);
         filter.addAction(Intent.ACTION_BATTERY_OKAY);
         filter.addAction(Intent.ACTION_POWER_CONNECTED);
